@@ -12,8 +12,20 @@ const Navbar = () => {
         setNav(!nav);
     };
 
+    const [color, setColor] = useState(false);
+    
+    const changeColor = () => {
+        if(window.scrollY >= 100){
+          setColor(true);
+        } else{
+          setColor(false);
+        }
+    };
+
+    window.addEventListener("scroll", changeColor);
+
   return (
-    <div className="header">
+    <div className={color ? 'header-bg' : "header"}>
       <Link to="/">
         <h1>Philus.</h1>
         </Link>
