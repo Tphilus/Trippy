@@ -15,7 +15,7 @@ const Footer = () => {
       <div className="footer-container">
         <div className="left">
           <div className="location">
-            <FaHome size={20} style={{ color: "#fff", marginRight: "2rem" }} />
+            <FaHome size={20} style={{ color: "#fff", marginRight: "1rem" }} />
             <div>
               <p>123 Housing Society</p>
               <p>Bangladesh</p>
@@ -25,7 +25,7 @@ const Footer = () => {
             <h4>
               <FaPhone
                 size={20}
-                style={{ color: "#fff", marginRight: "2rem" }}
+                style={{ color: "#fff", marginRight: "1rem" }}
               />
               1-2323-343-23
             </h4>
@@ -34,7 +34,7 @@ const Footer = () => {
             <h4>
               <FaMailBulk
                 size={20}
-                style={{ color: "#fff", marginRight: "2rem" }}
+                style={{ color: "#fff", marginRight: "1rem" }}
               />
               info@gmail.com
             </h4>
